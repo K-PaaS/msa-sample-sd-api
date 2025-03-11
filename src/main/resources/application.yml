@@ -4,7 +4,7 @@ server:
 spring:
   datasource:
     url: jdbc:mariadb://${DB_URL}/openlab?serverTimezone=Asia/Seoul&useSSL=false
-    username: admin
+    username: ${DB_USER}
     password: ${DB_PASSWORD}
     driver-class-name: org.mariadb.jdbc.Driver
   jpa:
